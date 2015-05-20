@@ -1,0 +1,25 @@
+{
+  "name": "node-web-api-02",
+  "version": "1.0.0",
+  "description": "Express",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/samartioli/node-web-api.git"
+  },
+  "keywords": [
+    "node"
+  ],
+  "author": "Sam Artioli",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/samartioli/node-web-api/issues"
+  },
+  "homepage": "https://github.com/samartioli/node-web-api",
+  "dependencies": {
+    "express": "^4.12.4"
+  }
+}

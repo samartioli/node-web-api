@@ -1,0 +1,27 @@
+{
+  "name": "node-web-api-03",
+  "version": "1.0.0",
+  "description": "Express wth CRUD",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/samartioli/node-web-api.git"
+  },
+  "keywords": [
+    "node"
+  ],
+  "author": "Sam Artioli",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/samartioli/node-web-api/issues"
+  },
+  "homepage": "https://github.com/samartioli/node-web-api",
+  "dependencies": {
+    "body-parser": "^1.12.4",
+    "express": "^4.12.4",
+    "lodash": "^3.9.1"
+  }
+}
