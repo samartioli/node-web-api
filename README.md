@@ -41,12 +41,29 @@
 
 ### 04 MongoDB
 
+<https://www.mongodb.org/downloads>
+
+On Mac I recommend homebrew
+
+    brew up
+    brew install mongodb
+
     cd 04-mongodb
     npm install
     node index.js
 
-<http://localhost:3000>
+### 05 Redis
 
+<http://redis.io/download>
+
+On Mac I recommend homebrew
+
+    brew up
+    brew install redis
+
+    cd 04-mongodb
+    npm install
+    node index.js
 
 
 
