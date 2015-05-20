@@ -25,7 +25,27 @@
 
 <http://localhost:3000>
 
+### 03 Crud
 
+    cd 03-express
+    npm install
+    node index.js
+
+
+    curl -H "Content-Type: application/json" -X POST -d '{"name":"jessy","age":"3","type":"siamese"}' http://localhost:3000/cat
+    curl -H "Content-Type: application/json" -X POST -d '{"name":"sam","age":"5","type":"alley"}' http://localhost:3000/cat
+    curl -X GET http://localhost:3000/cat
+    curl -H "Content-Type: application/json" -X PUT -d '{"name":"sam","age":"8","type":"alley"}' http://localhost:3000/cat/sam
+    curl -X DELETE http://localhost:3000/cat/sam
+
+
+### 04 MongoDB
+
+    cd 04-mongodb
+    npm install
+    node index.js
+
+<http://localhost:3000>
 
 
 
